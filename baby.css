@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.header .left {
+    display: flex;
+}
+.header .left ul {
+    display: flex;
+    gap: 20px;
+}
+.header .middle div img {
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+}
+.header .right ul {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    gap: 30px;
+}
+.header .right a {
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    left: 155px;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+  
+.search input[type=search] {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+}
+.search i {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+}
+  
+.main {
+    display: flex;
+    padding-top: 40px;
+}
+.main .l-side {
+    height: 135px;
+    padding-left: 25px;
+    width: 25%;
+    background-color: white;
+}
+.main .l-side h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.main .l-side p{
+    font-size: 12px;
+
+}
+.main .m-side {
+    width: 100%;
+    background-image: url("images/4060C-3x2-baby-summer-shop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    background-color: #fdf2e9;
+}
+.main .m-side div{
+    position: relative;
+    top: 70%;
+    color: white;
+}
+.main .m-side button{
+    padding: 7px 15px;
+    font-weight: 600;
+    color: black;
+}
+/*# sourceMappingURL=baby.css.map */
+.main4{
+    display:flex;
+    padding-top: 30px;
+
+}
+.main4 .l2-side{
+    width: 16.9%;
+}
+.main4 .m2-side{
+    width: 66%;
+    background-color: #F0B27A ;
+    color: white;
+}
+.main4 .m2-side button{
+    position: relative;
+    bottom: 10px;
+    padding: 7px 15px;
+}
+.main4 .m2-side p{
+    font-size: 12px;
+}
+.kidswear{
+    display: flex;
+}
+.kidswear .l3-side{
+    width: 16.9%;
+}
+.kidswear .m3-side{
+    width: 66%;
+}
+.kidswear .m3-side .ma{
+    display: flex;
+    gap:30px;
+}
+.kidswear .m3-side .ma a{
+    text-decoration: none;
+    font-size: small;
+    color: gray;
+}
+.cute{
+    display: flex;
+    padding-top:30PX;
+}
+.cute .l4-side{
+    width: 16.9%;
+}
+.cute .m4-side{
+    background-image:url("images/hmgoepprodcute.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66%;
+    height: 650px;
+}
+.cute .m4-side .mb{
+    position: relative;
+    top: 70%;
+    color: white;
+    font-size: 20px;
+}
+.cute .m4-side .mb button{
+    position: relative;
+    bottom: 20px;
+    padding: 7px 15px;
+}
+.babycloth{
+    display: flex;
+    padding-top:30px;
+}
+.babycloth .l5-side{
+    width: 16.9%;
+}
+.babycloth .m5-side{
+    width: 66%;
+}
+
+.footer {
+    display: flex;
+    background-color: #e4e4e4;
+    height: 300px;
+    padding: 30px;
+  }
+  .footer .l-foot {
+    height: 0px;
+    width: 20%;
+    background-color: #e4e4e4;
+  }
+  .footer .m-foot {
+    height: 280px;
+    width: 100%;
+    display:flex;
+    gap: 80px;
+  }
+.footer .m-foot p{
+    font-size: 13px;
+}
+.footer .m-foot .mf4{
+    position: relative;
+    top: 15%;
+    width: 15%;
+}
+.footer .m-foot .mf1{
+    width: 15%;
+    
+}
+.footer .m-foot .mf2{
+    width: 15%;
+}
+.footer .m-foot .mf3{
+    width: 15%;
+}
+ 
+.footer .r-foot {
+    height: 220px;
+    width: 20%;
+    background-color: #e4e4e4;
+}
+
+.footer2{
+    display: flex;
+    background-color: #e4e4e4;
+    height: 300px;
+}
+.footer2 .l2-foot{
+    width: 20%;
+    background-color:#e4e4e4;
+}
+.footer2 .m2-foot{
+    width: 60%;
+    height: 300px;
+    background-color:#e4e4e4;
+}
+.footer2 .m2-foot .icons ul{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 25%;
+}
+.footer2 .m2-foot .f-logo{
+    position: relative;
+    top: 20%;
+    font-size: small;
+}

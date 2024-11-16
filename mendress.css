@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+  
+.header .left {
+    display: flex;
+}
+.header .left ul {
+    display: flex;
+    gap: 20px;
+}
+.header .middle div img {
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+}
+.header .right ul {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    gap: 30px;
+}
+.header .right a {
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    left: 155px;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.search input[type=search] {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.search i {
+    float: right;
+    position: relative;
+    right:35px;
+    bottom: 40px;
+    padding: 5px 3px;
+}
+  
+.dress{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.dress .modelimg{
+    display: flex;
+    width: 60%;
+    gap: 10px;
+
+}
+
+.dress .modelimg .img1{
+    width: 50%;
+    background-image: url("images/mendress1.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+.dress .modelimg .img2{
+    width: 50%;
+    background-image: url("images/mendress2.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+.dress .pricing{
+    height: 400px;
+    width: 40%;
+    
+}
+table{
+    width: 100%;
+    
+}
+table h3{
+    font-size: 18px;
+}
+table p{
+    font-size: 13px;
+}
+table h4{
+    font-size: 15px;
+}
+table img{
+    box-shadow: 5px 5px 3px gray;
+}
+table button{
+    padding: 8px 50px;
+}
+table a{
+    float: right;
+}
+#add{
+    padding: 8px 280px;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+table h2{
+    font-size: 18px;
+}
+.dress-1{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+.dress-1 .modelimg-1{
+    display: flex;
+    width: 60%;
+    gap: 8px;
+
+}
+
+.dress-1 .modelimg-1 .img3{
+    width: 49%;
+    background-image: url("images/mendress3.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.dress-1 .modelimg-1 .img4{
+    width: 49%;
+    background-image: url("images/mendress4.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.dress-2{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+.dress-2 .modelimg-2{
+    display: flex;
+    width: 60%;
+    gap: 8px;
+
+}
+
+.dress-2 .modelimg-2 .img5{
+    width: 49%;
+    background-image: url("images/mendress5.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.dress-2 .modelimg-2 .img6{
+    width: 49%;
+    background-image: url("images/mendress6.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+ 
+.other{
+    display: flex;
+}
+.other .l-side{
+    height: 80px;
+    width: 25%;
+    background-color:white;
+}
+.other .m-side{
+    width: 100%;
+}
+.other .m-side .m1{
+    display: flex;
+}
+.other .m-side .m1 a{
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
+    border: 2px;
+    background-color:#EBF5FB;
+}
+
+.other .r-side{
+    height: 80px;
+    width: 15%;
+    background-color:white;
+}
+
+.footer {
+    display: flex;
+    background-color: #e4e4e4;
+    height: 300px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .footer .l-foot {
+    height: 0px;
+    width: 20%;
+    background-color: #e4e4e4;
+  }
+  .footer .m-foot {
+    height: 280px;
+    width: 100%;
+    display:flex;
+    gap: 80px;
+  }
+  .footer .m-foot p{
+    font-size: 13px;
+  }
+  .footer .m-foot .mf4{
+    position: relative;
+    top: 15%;
+    width: 15%;
+  }
+  .footer .m-foot .mf1{
+    width: 15%;
+    
+  }
+  .footer .m-foot .mf2{
+    width: 15%;
+  }
+  .footer .m-foot .mf3{
+    width: 15%;
+  }
+  
+  .footer .r-foot {
+    height: 220px;
+    width: 20%;
+    background-color: #e4e4e4;
+  }
+  
+  .footer2{
+    display: flex;
+    background-color: #e4e4e4;
+    height: 300px;
+  }
+  .footer2 .l2-foot{
+    width: 20%;
+    background-color:#e4e4e4;
+  }
+  .footer2 .m2-foot{
+    width: 60%;
+    height: 300px;
+    background-color:#e4e4e4;
+  }
+  .footer2 .m2-foot .icons ul{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 25%;
+  }
+  .footer2 .m2-foot .f-logo{
+    position: relative;
+    top: 20%;
+    font-size: small;
+  }

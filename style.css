@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+}
+  
+  .header .left {
+    display: flex;
+  }
+  .header .left ul {
+    display: flex;
+    gap: 20px;
+  }
+  .header .middle div img {
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+  }
+  .header .right ul {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    gap: 30px;
+  }
+  .header .right a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    left: 155px;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+  }
+  .navbar a:hover{
+    text-decoration: underline;
+  }
+  .search input[type=search] {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .search i {
+    float: right;
+    position: relative;
+    right:35px;
+    bottom: 40px;
+    padding: 5px 3px;
+  }
+  
+  .navbar2 {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar2 ul {
+    display: flex;
+    gap: 100px;
+    position: relative;
+    left: 100px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  .main .c-side {
+    height: 220px;
+    width: 20%;
+    background-color: white;
+  }
+  .main .m-side {
+    background-image: url("images/WS20m_3x2-1.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 60%;
+  }
+  .main .m-side div {
+    position: relative;
+    top: 400px;
+    color: white;
+  }
+  .main .m-side div h3 {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+  }
+  .main .m-side div h1 {
+    font-size: 42px;
+  }
+  .main .m-side div button {
+    padding: 7px 15px;
+    position: relative;
+    bottom: 10px;
+  }
+  .main .r-side {
+    height: 220px;
+    width: 20%;
+    background-color:white;
+  }
+  
+  .main2 {
+    display: flex;
+    padding-top: 40px;
+  }
+  .main2 .c-side {
+    height: 220px;
+    width: 20%;
+    background-color: white;
+  }
+  .main2 .m-side {
+    background-image: url("images/MS20E-teaser2-3x2-1-2 2-summer-sophistication.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 60%;
+  }
+  .main2 .m-side div {
+    position: relative;
+    top: 370px;
+    color: white;
+  }
+  .main2 .m-side div h3 {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+  }
+  .main2 .m-side div h1 {
+    font-size: 42px;
+  }
+  .main2 .m-side div h4 {
+    font-size: 16px;
+    position: relative;
+    bottom: 18px;
+  }
+  .main2 .m-side div button {
+    padding: 7px 15px;
+    position: relative;
+    bottom: 20px;
+  }
+  .main2 .r-side {
+    height: 220px;
+    width: 20%;
+    background-color: white;
+  }
+.main3{
+    display: flex;
+    padding-top: 40px;
+}
+.main3 .c-side {
+    height: 135px;
+    width: 20%;
+    background-color: white;
+}    
+.main3 .m-side{
+    width: 60%;
+    background-color: #FDF2E9 ;
+}
+.main3 .m-side h3{
+    color: #E50010;
+    font-size: 19px;
+
+}
+.main3 .m-side p{
+    font-size: 15px;
+    padding: 4px 60px 0px;
+}
+.main3 .m-side button{
+    background-color: #FDF2E9;
+    padding: 5px 7px;
+    position: relative;
+    font-size: large;
+}
+
+.main3 .r-side {
+    height: 135px;
+    width: 20%;
+    background-color: white;
+}
+.arrivals{
+    display: flex;
+}
+.arrivals .c-side{
+    height: 80px;
+    width: 20%;
+    background-color:white;
+}
+.arrivals .m-side{
+    width: 60%;
+}
+.arrivals .m-side button{
+    padding: 10px 20px ;
+    border-radius: 30px;
+    font-size: medium;
+    margin: 10px;
+}
+.arrivals .m-side button:hover{
+  background-color: #E50010;
+  color: white;
+  border: none; 
+}
+#l{
+    background-color: #E50010;
+    color: white;
+    border: none;
+}
+.arrivals .r-side{
+    height: 80px;
+    width: 20%;
+    background-color: white;
+}
+.ladiesimg{
+    display: flex;
+}
+.ladiesimg .c-side{
+    height: 80px;
+    width: 20%;
+    background-color:white;
+}
+.ladiesimg .m-side{
+    width: 60%;
+}
+.ladiesimg .m-side .m1{
+    display: flex;
+    background-color: #ebf5fb;
+}
+.ladiesimg .m-side .m1 a{
+    padding: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+.ladiesimg .r-side{
+    height: 80px;
+    width: 20%;
+    background-color:white;
+}
+.girl-boy{
+  padding-top: 40px;
+    display: flex;
+}
+.girl-boy .c-side{
+    height: 80px;
+    width: 20%;
+    background-color:white;
+}
+.girl-boy .m-side{
+    background-image: url("images/4060I-3x2-1-summer-ease.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 600px;
+}
+.girl-boy .m-side .m2{
+    text-align: center;
+    position: relative;
+    top: 60%;
+}
+.girl-boy .m-side .m2 h1{
+    color: white;
+    font-size: 50px;
+}
+.girl-boy .m-side .m2 button{
+    padding: 7px 15px;
+    font-size: large;
+    font-weight: 600;
+}
+.girl-boy .r-side{
+    height: 80px;
+    width: 20%;
+    background-color:white;
+}
+.main3-1{
+  padding-top:40px ;
+    display: flex;
+}
+.main3-1 .c-side {
+    height: 135px;
+    width: 20%;
+    background-color: white;
+}    
+.main3-1 .m-side{
+    width: 60%;
+    background-color:rgba(34,34,34, 0.3);
+}
+.main3-1 .m-side h3{
+    color: white;
+    font-size: 19px;
+
+}
+.main3-1 .m-side p{
+    font-size: 15px;
+    color: white;
+    padding: 4px 60px 0px;
+}
+.main3-1 .m-side button{
+    background-color: white;
+    padding: 5px 10px;
+    position: relative;
+    font-size: large;
+    border: none;
+}
+
+.main3-1 .r-side {
+    height: 135px;
+    width: 20%;
+    background-color: white;
+}
+
+.main2-1 {
+    display: flex;
+    padding-top: 40px;
+}
+.main2-1 .c-side {
+    height: 220px;
+    width: 20%;
+    background-color: white;
+}
+.main2-1 .m-side {
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.095)60%,rgba(0, 0, 0, 0.5)80%) ,url("images/new-DS20D-3x2-1-summer-update.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 60%;
+}
+.main2-1 .m-side div {
+    position: relative;
+    top:70%;
+    color: white;
+}
+.main2-1 .m-side div h3 {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.main2-1 .m-side div h1 {
+    font-size: 42px;
+}
+.main2-1 .m-side div h4 {
+    font-size: 16px;
+    position: relative;
+    bottom: 18px;
+}
+.main2-1 .m-side div button {
+    padding: 7px 15px;
+    position: relative;
+    bottom: 20px;
+}
+.main2-1 .r-side {
+    height: 220px;
+    width: 20%;
+    background-color: white;
+}
+
+.footer {
+  display: flex;
+  background-color: #e4e4e4;
+  height: 300px;
+  padding: 30px;
+  margin-top: 30px;
+}
+.footer .l-foot {
+  height: 0px;
+  width: 20%;
+  background-color: #e4e4e4;
+}
+.footer .m-foot {
+  height: 280px;
+  width: 100%;
+  display:flex;
+  gap: 80px;
+}
+.footer .m-foot p{
+  font-size: 13px;
+}
+.footer .m-foot .mf4{
+  position: relative;
+  top: 15%;
+  width: 15%;
+}
+.footer .m-foot .mf1{
+  width: 15%;
+  
+}
+.footer .m-foot .mf2{
+  width: 15%;
+}
+.footer .m-foot .mf3{
+  width: 15%;
+}
+
+.footer .r-foot {
+  height: 220px;
+  width: 20%;
+  background-color: #e4e4e4;
+}
+
+.footer2{
+  display: flex;
+  background-color: #e4e4e4;
+  height: 300px;
+}
+.footer2 .l2-foot{
+  width: 20%;
+  background-color:#e4e4e4;
+}
+.footer2 .m2-foot{
+  width: 60%;
+  height: 300px;
+  background-color:#e4e4e4;
+}
+.footer2 .m2-foot .icons ul{
+  display: flex;
+  gap: 60px;
+  position: relative;
+  left: 25%;
+}
+.footer2 .m2-foot .f-logo{
+  position: relative;
+  top: 20%;
+  font-size: small;
+}
